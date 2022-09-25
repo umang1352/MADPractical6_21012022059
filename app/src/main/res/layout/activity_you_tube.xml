@@ -16,6 +16,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/playbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="50dp"
+        android:src="@drawable/ic_baseline_play_circle_outline_24"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

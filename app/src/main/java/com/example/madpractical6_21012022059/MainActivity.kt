@@ -1,5 +1,6 @@
 package com.example.madpractical6_21012022059
 
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         myvideoview.requestFocus()
         myvideoview.start()
 
-
+    mybuttonview.setOnClickListener{
+        Intent(this,YouTubeActivity::class.java).apply {
+            startActivity(this)
+        }
+    }
     }
 }
